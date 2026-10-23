@@ -9,7 +9,7 @@ Bu projede, **King County House Sales** veri seti kullanılarak konut satış fi
 - 21.613 konut satış kaydı
 - 19 özellik
 - Veri kaynağı: King County House Sales
-- Eksik değer bulunmamaktadır.
+- Eksik değer bulunmamaktadır
 
 Modelleme öncesinde `id` ve `date` alanları veri setinden çıkarılmış, sayısal veriler `[0,1]` aralığına normalize edilmiştir.
 
@@ -40,19 +40,24 @@ Modelleme öncesinde `id` ve `date` alanları veri setinden çıkarılmış, say
 
 10-Fold Cross-Validation yöntemi, Holdout yöntemine göre daha yüksek korelasyon ve daha düşük hata değerleri sağlamıştır.
 
-## Kullanılan Teknolojiler
+## Kullanılan Teknolojiler ve Yaklaşımlar
 
 - Weka 3.8.6
 - Machine Learning
 - Linear Regression
 - CRISP-DM
 - Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Feature Selection
+- Normalization
 - Cross-Validation
 - Model Evaluation
 
 ## Proje Raporu
 
-Projeye ait ayrıntılı analiz, metodoloji, görseller ve sonuçlar repository içerisinde bulunan proje raporunda yer almaktadır.
+📄 [Proje Raporunu Görüntüle](./HOUSE_PRICE_LINEAR_REGRESSION_FINAL_REPORT.pdf)
+
+Projeye ait ayrıntılı analiz, metodoloji, görseller ve model sonuçları yukarıdaki proje raporunda yer almaktadır.
 
 > Proje Weka 3.8.6 arayüzü üzerinden gerçekleştirildiği için ayrı bir kaynak kod dosyası bulunmamaktadır.
 
